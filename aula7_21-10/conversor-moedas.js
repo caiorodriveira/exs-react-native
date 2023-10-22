@@ -52,13 +52,13 @@ import {
           </View>
           <View style={styles.formGroup}>
             <Text>De:</Text>
-            <Picker style={styles.input} onValueChange={(de) => setDe(de)} selectedValue="Dólar">
+            <Picker style={styles.input} onValueChange={(de) => setDe(de)}>
               {pickerOptions}
             </Picker>
           </View>
           <View style={styles.formGroup}>
             <Text>Para:</Text>
-            <Picker style={styles.input} onValueChange={(para) => setPara(para)} selectedValue="Dólar">
+            <Picker style={styles.input} onValueChange={(para) => setPara(para)}>
               {pickerOptions}
             </Picker>
           </View>
